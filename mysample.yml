@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: 172.31.44.101
   become: yes
   tasks:
   - name: i want to ping all the nodes
