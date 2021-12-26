@@ -1,1 +1,12 @@
+[mywebservers]
 172.31.24.203
+
+[myapplicationserver]
+
+[myDBservers]
+
+[myubuntuservers]
+
+[myRedhatservers]
+
+
