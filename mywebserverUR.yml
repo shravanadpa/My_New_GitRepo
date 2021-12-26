@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: mywebservers
   become: yes
   tasks:
   - name: i want to install ubuntu 16 server
@@ -23,4 +23,3 @@
       state: started
     when: ansible_os_family =="RedHat"
 
-    
