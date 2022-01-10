@@ -1,5 +1,5 @@
 ---
-- hosts: mywebservers
+- hosts: mywebserver
   become: yes
   tasks:
   - name: i want to install ubuntu 16 server
