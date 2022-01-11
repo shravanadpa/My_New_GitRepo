@@ -10,4 +10,6 @@
 
 [myRedhatservers]
 
-
+[mywebserver:vars]
+mywebpackageonubuntu=apache2
+mywebpackageonredhat=httpd
