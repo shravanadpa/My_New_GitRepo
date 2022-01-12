@@ -9,7 +9,7 @@
 
   - name: install tree
     apt:
-      na,,me: tree
+      name: tree
       state: present
     ignore_errors: yes
 
