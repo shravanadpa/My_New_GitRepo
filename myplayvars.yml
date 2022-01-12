@@ -6,6 +6,6 @@
     myvar2: bit
     myvar3: tree
   tasks:
-  - name: i want to disply tree
+  - name: i want to disply install hello johhny
     debug:
-      msg: "{{myvar3}}"
+      msg: "{{myvar2}}"
