@@ -3,7 +3,7 @@
   become: yes
   tasks:
   - name: i want to execute linux command directly
-    command: java -versi
+    command: 
     register: myresult
 
   - name: i want to debug
